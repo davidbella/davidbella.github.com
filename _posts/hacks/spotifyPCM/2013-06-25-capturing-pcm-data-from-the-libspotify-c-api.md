@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Working with the Libspotify C API"
+title: "Capturing PCM Data from the Libspotify C API"
 description: ""
 categories: [hacks, spotifyPCM]
 tags: ["C", "Spotify", "Music", "PCM"]
