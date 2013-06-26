@@ -17,10 +17,12 @@ Working off of this simplified example of the jukebox program that came with the
 
 The main key was capturing the data chunks as they came back from the .music_delivery callback. I used the fwrite command to take the raw data and write it out to a file (or stdout if preferred).
 
-     FILE* outputFile;
-     outputFile = fopen("song.data", "ab");
-     fwrite(frames, 1, num_frames * format->channels * 2, outputFile);
-     fclose(outputFile);
+{% highlight c %}
+FILE* outputFile;
+outputFile = fopen("song.data", "ab");
+fwrite(frames, 1, num_frames * format->channels * 2, outputFile);
+fclose(outputFile);
+{% endhighlight %}
 
 I dropped this into the .music_delivery callback function (I realize that I keep redeclaring outputFile, but this is just an example). What this does is basically, create an output FILE file handle, initialize it as "song.data" and open it in append mode and writing binary data.
 
@@ -38,8 +40,8 @@ So we have captured our data! Great. Now what? Play it!
 
 I used sox, but I am sure you could use lame or some other encoding program to check it out:
 
-    > mv song.data song.s16
-    > play -c 2 -r 44100 song.s16
+    $ mv song.data song.s16
+    $ play -c 2 -r 44100 song.s16
 
 sox requires the file have the proper extension (there may be a switch for this too) and to set the channels to 2 and rate to 44100 since this is headerless PCM data.
 
