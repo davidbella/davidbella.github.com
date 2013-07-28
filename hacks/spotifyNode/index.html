@@ -1,0 +1,16 @@
+---
+layout: page
+title: "SpotifyNode"
+description: ""
+type: "hack"
+---
+{% include JB/setup %}
+
+<p>
+  This hack uses node.js to create a webserver that allows a user to search for a song, have it downloaded to the server, and play/download it as an mp3 file
+</p>
+<p>
+  {% for post in site.categories.spotifynode %}
+    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</p>
