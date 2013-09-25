@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://davidbella.github.io/atom.xml" rel="self"/>
   <link href="http://davidbella.github.io/"/>
-  <updated>2013-09-24T18:13:17-04:00</updated>
+  <updated>2013-09-24T23:20:42-04:00</updated>
   <id>http://davidbella.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://davidbella.github.io/blog/2013/09/24/hello-world/"/>
+    <updated>2013-09-24T18:11:00-04:00</updated>
+    <id>http://davidbella.github.io/blog/2013/09/24/hello-world</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content>
+  </entry>
   
 </feed>
