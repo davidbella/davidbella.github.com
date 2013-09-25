@@ -4,7 +4,6 @@ title: "Hello World"
 date: 2013-09-24 18:11
 comments: true
 categories:
-published: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
