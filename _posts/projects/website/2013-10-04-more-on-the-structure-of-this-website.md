@@ -71,7 +71,7 @@ How _exactly_ Jekyll stores this is a mystery to me, for now, but this handy ite
 
 I don't think I was being very clear here so I am going to try to explain this better. I started to hint at this a bit towards the end of the last point, but the idea is again one of organization.
 
-Take a quick pick a bit further up this page at the image of my directory structure for \_posts. Now take a look at this image of a directory structure for something I am calling "pages":
+Take a quick peek a bit further up this page at the image of my directory structure for \_posts. Now take a look at this image of a directory structure for something I am calling "pages":
 
 ![Page Structure]({{ site.url }}/assets/projects/website/page_structure.png)
 
