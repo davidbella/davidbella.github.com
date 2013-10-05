@@ -56,7 +56,7 @@ tags: ["Spotify", "Music", "node.js", "JavaScript", "Web Application", "Express"
 Notice here that the list of categories is **\[hacks, spotifyNode\]** -- which lines up nicely to _where this file is in the directory structure_. Also, [the default URL structure for Jekyll](http://jekyllrb.com/docs/permalinks/) makes it such that our URL points nicely to:
 
 {% highlight yaml %}
-http://davidbella.github.io/hacks/spotifynode/2013/07/27/creating-a-simple-webserver-in-nodejs/
+http://davidbella.github.io/pages/hacks/spotifynode/2013/07/27/creating-a-simple-webserver-in-nodejs/
 {% endhighlight %}
 
 So far so good, but the real magic happens now. We can use these nicely tagged categories to _selectively display posts based on their category_. Whoa. So I can create [a page dedicated entirely to the spotifyNode hack]({{ site.url }}/pages/hacks/spotifyNode) that will list only posts that are categorized as part of the spotifyNode hack! Here is the Jekyll YAML Front End VooDoo:
