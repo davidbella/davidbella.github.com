@@ -1,14 +1,13 @@
 ---
 layout: page
 title: dhb
-tagline: 
+tagline:
 ---
 {% include JB/setup %}
 
-<p>Still working on setting up this site, mostly experimenting with Jekyll and JB</p>
-
 <h3>Hacks</h3>
 <ul class="hacks">
+  <p>Shorter projects that aren't likely to be maintained</p>
   {% for page in site.pages %}
     {% if page.type == "hack" %}
       <li><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></li>
@@ -18,8 +17,19 @@ tagline:
 
 <h3>Projects</h3>
 <ul class="projects">
+  <p>Cleaner, longer running projects</p>
   {% for page in site.pages %}
     {% if page.type == "project" %}
+      <li><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h3>Non Technical</h3>
+<ul class="non-technical">
+  <p>More prose like, but may involve some technical items, topically</p>
+  {% for page in site.pages %}
+    {% if page.type == "non-technical" %}
       <li><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
