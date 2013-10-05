@@ -59,7 +59,7 @@ Notice here that the list of categories is **\[hacks, spotifyNode\]** -- which l
 http://davidbella.github.io/hacks/spotifynode/2013/07/27/creating-a-simple-webserver-in-nodejs/
 {% endhighlight %}
 
-So far so good, but the real magic happens now. We can use these nicely tagged categories to _selectively display posts based on their category_. Whoa. So I can create [a page dedicated entirely to the spotifyNode hack]({{ site.url }}/hacks/spotifyNode) that will list only posts that are categorized as part of the spotifyNode hack! Here is the Jekyll YAML Front End VooDoo:
+So far so good, but the real magic happens now. We can use these nicely tagged categories to _selectively display posts based on their category_. Whoa. So I can create [a page dedicated entirely to the spotifyNode hack]({{ site.url }}/pages/hacks/spotifyNode) that will list only posts that are categorized as part of the spotifyNode hack! Here is the Jekyll YAML Front End VooDoo:
 
 {% highlight ruby %}
 for post in site.categories.spotifynode
