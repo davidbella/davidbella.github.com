@@ -1,7 +1,8 @@
 ---
 layout: default
-disqus: false
+disqus: true
 archive: false
+logo: false
 ---
 
 <main class="content" role="main">
@@ -9,7 +10,7 @@ archive: false
     <article class="post">
         <header class="post-header">
             <a id="blog-logo" href="{{site.baseurl}}">
-                {% if site.logo %}
+                {% if logo && site.logo %}
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
                 {% else %}
                     <span class="blog-title">{{ site.name }}</span>
@@ -19,14 +20,8 @@ archive: false
         
         <span class="post-meta">
         	<time datetime="{{ page.date | date_to_string }}">{{ page.date | date_to_string }}</time>
-        	{% if post.categories %}
-        		on
-	        	{% for category in page.categories %}
-	        	    {{category}}
-	        	{% endfor %}
-	        {% endif %}
+            on {{ page.category }}
        	</span>
-
         <h1 class="post-title">{{ page.title }}</h1>
 
         <section class="post-content">
@@ -54,7 +49,7 @@ archive: false
                     	<h4> {{ site.author }} </h4>
                     	<!-- Author Bio -->
                     	<p> 
-                    		Here goes the author description. You might want to place some links too in here
+                        <a href="http://www.twitter.com/davidhenrybella">@davidhenrybella</a> - Student <a href="http://www.twitter.com/flatironschool">@FlatironSchool</a>
                     	</p>
                     </article>
                 </section>                
