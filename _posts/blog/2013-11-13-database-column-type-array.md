@@ -62,3 +62,5 @@ Comments.all.collect do |comment|
   comment.post_id == post.id
 end
 {% endhighlight %}
+
+Also, huge shoutout here to http://www.gliffy.com - I have been looking for a simple but effective online diagramming tool for a long time and this site was a joy to work with.
