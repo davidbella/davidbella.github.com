@@ -2,8 +2,8 @@
 layout: post
 title: "Visualizing Your Programs"
 description: ""
-category: "blog"
-tags: ["Blog", "Visualization", "Programming", "Ruby"]
+categories: "blog"
+tags: ["blog", "visualization", "programming", "ruby"]
 ---
 
 **It's All About Your Data Structures**  

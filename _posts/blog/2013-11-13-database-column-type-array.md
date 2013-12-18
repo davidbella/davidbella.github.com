@@ -3,7 +3,7 @@ layout: post
 title: "Database Column Type - Array"
 description: ""
 category: "blog"
-tags: ["Visualization", "Databases"]
+tags: ["visualization", "databases"]
 ---
 
 **Okay, So More Like "List"**  

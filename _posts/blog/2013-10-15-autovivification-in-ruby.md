@@ -2,8 +2,8 @@
 layout: post
 title: "Autovivification in Ruby"
 description: ""
-category: "blog"
-tags: ["Ruby", "Perl", "Autovivification", "Hashes"]
+categories: "blog"
+tags: ["ruby", "perl", "autovivification", "hashes"]
 ---
 
 **What is Autovivification?**  

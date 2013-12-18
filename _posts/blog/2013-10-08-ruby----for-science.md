@@ -2,8 +2,8 @@
 layout: post
 title: "Ruby -- For Science!"
 description: ""
-category: "blog"
-tags: ["Science", "Ruby", "Academia", "Open Source"]
+categories: [blog]
+tags: ["science", "ruby", "academia", "open source"]
 ---
 
 **Ruby in Academia -- Why Not?**  

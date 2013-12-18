@@ -3,7 +3,7 @@ layout: post
 title: "Visualization and the Power of Abstraction"
 description: ""
 category: "blog"
-tags: ["Visualization", "Programming"]
+tags: ["visualization", "programming"]
 ---
 
   
